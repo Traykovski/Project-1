@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Вработи студенти</title>
+
+    <!-- title-icon -->
+    <link href="./assets/Design/Logo.png" rel="icon" />
+
+  
+
+    <!-- boostrap CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+
+    <!-- local CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navbar menu -->
+
+    <header id="header" class="bg-yellow sticky-top nav-fixed py-lg-2">
+      <nav
+        class="navbar navbar-expand-lg navbar-light d-flex align-items-center"
+      >
+        <a
+          class="navbar-logo text-center text-decoration-none"
+          href="./index.html"
+          ><img src="./assets/Design/Logo.png" alt="" class="logo" />
+          <div class="logo-brand text-dark text-uppercase font-weight-bold">
+            Brainster
+          </div>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <div class="hamburger hamburger-steps">
+            <div class="hamburger-line"></div>
+            <div class="hamburger-line"></div>
+            <div class="hamburger-line"></div>
+          </div>
+        </button>
+
+        <div
+          class="collapse navbar-collapse nav-fullscreen"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav ml-lg-auto nav-fullscreen-items text-md-center">
+            <li
+              class="nav-item font-weight-bold text-lg-center m-left1 nav-fullscreen-item"
+            >
+              <a
+                class="nav-link text-black"
+                href="https://brainster.co/marketing"
+                >Академија за маркетинг</a
+              >
+            </li>
+            <li class="nav-item font-weight-bold m-left2 nav-fullscreen-item">
+              <a class="nav-link" href="https://brainster.co/front-end/"
+                >Академија за програмирање</a
+              >
+            </li>
+            <li class="nav-item font-weight-bold m-left1 nav-fullscreen-item">
+              <a class="nav-link" href="https://brainster.co/data-science/"
+                >Академија за data science</a
+              >
+            </li>
+            <li class="nav-item font-weight-bold m-left1 nav-fullscreen-item">
+              <a class="nav-link" href="https://brainster.co/graphic-design/"
+                >Академија за дизајн</a
+              >
+            </li>
+
+            <a
+              href="./student.html"
+              class="btn butn text-white my-2 my-sm-0 ml-5 mr-3 ml-md-5 mr-md-5 m-left2"
+              >Вработи наш студент</a
+            >
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!--  Contact Section -->
+
+    <section id="contact" class="contact bg-yellow">
+      <div class="container">
+        <div class="section-title text-center">
+          <h2 class="font-weight-bolder display-4">Вработи студенти</h2>
+        </div>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+        <form action="#" class="php-email-form form was-validated">
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <label for="name" class="label">Име и презиме</label>
+              <input
+                type="text"
+                class="form-control"
+                id="input1"
+                placeholder="Вашето име и презиме"
+                required
+              />
+              <!-- <span class="error-message"></span>
+              <svg
+                class="icon icon-success hidden hidden"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+
+              <svg
+                class="icon icon-error hidden"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z"
+                  clip-rule="evenodd"
+                />
+              </svg> -->
+            </div>
+            <div class="col-md-6 form-group">
+              <label for="input2">Име на компанија</label>
+              <input
+                type="text"
+                name="name"
+                class="form-control"
+                id="input2"
+                placeholder="Име на компанија"
+                required
+              />
+              <!-- <span class="error-message"></span>
+              <svg
+                class="icon icon-success hidden"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+
+              <svg
+                class="icon icon-error hidden"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z"
+                  clip-rule="evenodd"
+                />
+              </svg> -->
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <label for="input3">Контакт email</label>
+              <input
+                type="email"
+                class="form-control"
+                name="email"
+                id="input3"
+                placeholder="Контакт email на вашата компанија"
+                required
+              />
+            </div>
+            <div class="col-md-6 form-group">
+              <label for="input4">Контакт телефон</label>
+              <input
+                type="number"
+                class="form-control"
+                name="tel"
+                id="input4"
+                placeholder="Контакт телефон на вашата компанија"
+                required
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 form-group mb">
+              <label for="exampleFormControlSelect2">Тип на студенти</label>
+              <select
+                name="dropdown"
+                class="form-control custom-select"
+                id="exampleFormControlSelect2"
+                required
+              >
+                <option selected class="text-hide">
+                  Изберете тип на студент
+                </option>
+                <option value="1">Студенти од маркетинг</option>
+                <option value="2">Студенти од програмирање</option>
+                <option value="3">Студенти од data science</option>
+                <option value="4">Студенти од дизајн</option>
+              </select>
+            </div>
+            <div class="col-md-6 my-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">
+                Your message has been sent. Thank you!
+              </div>
+
+              <div class="">
+                <button type="submit" class="butn">ИСПРАТИ</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <div class="container-fluid bg-dark">
+      <div class="row">
+        <div class="col text-center text-white pt-3">
+          <p>
+            Изработено со <i class="fa-solid fa-heart text-danger pr-1"></i>од
+            студентите на Brainster
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ON THE BOTTOM INSIDE THE BODY TAG -->
+    <!-- JQUERY CDN -->
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+
+    <!-- POPPER CDN -->
+    <script src="./assets/js/popper.min.js"></script>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="./assets/js/bootstrap.min.js"></script>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
